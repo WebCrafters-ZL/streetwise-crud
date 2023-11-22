@@ -7,11 +7,13 @@ public class App {
     public static int indice = 0;
 
     public static void main(String[] args) throws Exception {
+        // Código para iniciar o programa a partir do menu de opções
         menu();
     }
 
     public static void cadastrar() {
-        Tatuagem t = new Tatuagem();        
+        // Código para cadastrar uma tatuagem
+        Tatuagem t = new Tatuagem();
         System.out.println("**\tCadastrar tatuagem**");
         System.out.println("\tInsira as informações da tatuagem.");
         System.out.println("\t\tDigite o nome da tatuagem:");
@@ -25,22 +27,23 @@ public class App {
     }
 
     public static void alterar() {
-
+        // Código para alterar uma tatuagem
     }
 
     public static void excluir() {
-
+        // Código para excluir uma tatuagem
     }
 
     public static void pesquisar() {
-
+        // Código para pesquisar uma tatuagem
     }
 
     public static void listar() {
-
+        // Código para listar todas as tatuagens
     }
 
     public static void sair() {
+        // Código para sair do programa
         System.out.println("Até logo!");
         System.exit(0);
     }
@@ -80,9 +83,10 @@ public class App {
                 default:
                     System.out.println("ERRO! Selecione uma opção da lista.");
                     break;
-            }        
-        
-        };
+            }
+
+        }
+        ;
     }
-    
+
 }
